@@ -11,10 +11,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Field_Survey" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="DetailViewController" customModule="Field_Survey" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -63,6 +63,12 @@
                             <constraint firstItem="QJn-JN-rWj" firstAttribute="top" secondItem="UYB-Cg-bIF" secondAttribute="bottom" constant="12" id="gkZ-iM-pgH"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bottomLabel" destination="QJn-JN-rWj" id="GSC-l0-Dyq"/>
+                        <outlet property="image" destination="flv-by-dUV" id="cRk-4s-eXO"/>
+                        <outlet property="textLabel" destination="sJJ-IR-MV8" id="oah-Qh-X2A"/>
+                        <outlet property="topLabel" destination="UYB-Cg-bIF" id="aJb-wB-dXb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -71,13 +77,13 @@
         <!--Root View Controller-->
         <scene sceneID="j6K-HV-kdL">
             <objects>
-                <tableViewController id="SV9-hH-t2b" sceneMemberID="viewController">
+                <tableViewController id="SV9-hH-t2b" customClass="FieldTableViewController" customModule="Field_Survey" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="BLE-Vi-e2c">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="7TD-xO-dN3">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="fieldcell" id="7TD-xO-dN3" customClass="FieldTableViewCell" customModule="Field_Survey" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7TD-xO-dN3" id="KEI-vG-g91">
@@ -98,7 +104,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wIA-d6-5to">
-                                            <rect key="frame" x="51" y="26" width="42" height="20.5"/>
+                                            <rect key="frame" x="51" y="21" width="42" height="20.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -106,7 +112,7 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="RXU-Ox-15w" firstAttribute="leading" secondItem="KEI-vG-g91" secondAttribute="leading" id="1Gh-ZY-icR"/>
-                                        <constraint firstItem="wIA-d6-5to" firstAttribute="top" secondItem="ec5-Ch-BK1" secondAttribute="bottom" constant="5" id="EHK-X5-8Nt"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="wIA-d6-5to" secondAttribute="bottom" constant="-6" id="B7c-Nl-b41"/>
                                         <constraint firstItem="wIA-d6-5to" firstAttribute="leading" secondItem="RXU-Ox-15w" secondAttribute="trailing" constant="10" id="F4T-2o-Acp"/>
                                         <constraint firstItem="RXU-Ox-15w" firstAttribute="top" secondItem="KEI-vG-g91" secondAttribute="top" id="HI3-dS-65d"/>
                                         <constraint firstItem="ec5-Ch-BK1" firstAttribute="leading" secondItem="RXU-Ox-15w" secondAttribute="trailing" constant="10" id="VDD-gC-NKS"/>
@@ -114,6 +120,9 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="bottomLabel" destination="wIA-d6-5to" id="YBB-k4-eCK"/>
+                                    <outlet property="fieldImage" destination="RXU-Ox-15w" id="lEw-FK-xfa"/>
+                                    <outlet property="topLabel" destination="ec5-Ch-BK1" id="sH4-7I-l54"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="N67-7K-bJD"/>
                                 </connections>
                             </tableViewCell>
@@ -124,6 +133,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="Qqb-1f-BZ0"/>
+                    <connections>
+                        <outlet property="fieldTableView" destination="BLE-Vi-e2c" id="uyY-QP-4a9"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EWT-Ga-EpE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

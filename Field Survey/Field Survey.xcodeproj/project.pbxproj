@@ -7,21 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3247959D1F1ECE7000E77829 /* field_observations.json in Resources */ = {isa = PBXBuildFile; fileRef = 3247959C1F1ECE7000E77829 /* field_observations.json */; };
+		324795B41F1ECE7800E77829 /* amphibian.png in Resources */ = {isa = PBXBuildFile; fileRef = 3247959F1F1ECE7800E77829 /* amphibian.png */; };
+		324795B51F1ECE7800E77829 /* amphibian@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324795A01F1ECE7800E77829 /* amphibian@2x.png */; };
+		324795B61F1ECE7800E77829 /* amphibian@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324795A11F1ECE7800E77829 /* amphibian@3x.png */; };
+		324795B71F1ECE7800E77829 /* bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 324795A21F1ECE7800E77829 /* bird.png */; };
+		324795B81F1ECE7800E77829 /* bird@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324795A31F1ECE7800E77829 /* bird@2x.png */; };
+		324795B91F1ECE7800E77829 /* bird@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324795A41F1ECE7800E77829 /* bird@3x.png */; };
+		324795BA1F1ECE7800E77829 /* fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 324795A51F1ECE7800E77829 /* fish.png */; };
+		324795BB1F1ECE7800E77829 /* fish@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324795A61F1ECE7800E77829 /* fish@2x.png */; };
+		324795BC1F1ECE7800E77829 /* fish@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324795A71F1ECE7800E77829 /* fish@3x.png */; };
+		324795BD1F1ECE7800E77829 /* insect.png in Resources */ = {isa = PBXBuildFile; fileRef = 324795A81F1ECE7800E77829 /* insect.png */; };
+		324795BE1F1ECE7800E77829 /* insect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324795A91F1ECE7800E77829 /* insect@2x.png */; };
+		324795BF1F1ECE7800E77829 /* insect@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324795AA1F1ECE7800E77829 /* insect@3x.png */; };
+		324795C01F1ECE7800E77829 /* mammal.png in Resources */ = {isa = PBXBuildFile; fileRef = 324795AB1F1ECE7800E77829 /* mammal.png */; };
+		324795C11F1ECE7800E77829 /* mammal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324795AC1F1ECE7800E77829 /* mammal@2x.png */; };
+		324795C21F1ECE7800E77829 /* mammal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324795AD1F1ECE7800E77829 /* mammal@3x.png */; };
+		324795C31F1ECE7800E77829 /* plant.png in Resources */ = {isa = PBXBuildFile; fileRef = 324795AE1F1ECE7800E77829 /* plant.png */; };
+		324795C41F1ECE7800E77829 /* plant@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324795AF1F1ECE7800E77829 /* plant@2x.png */; };
+		324795C51F1ECE7800E77829 /* plant@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324795B01F1ECE7800E77829 /* plant@3x.png */; };
+		324795C61F1ECE7800E77829 /* reptile.png in Resources */ = {isa = PBXBuildFile; fileRef = 324795B11F1ECE7800E77829 /* reptile.png */; };
+		324795C71F1ECE7800E77829 /* reptile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324795B21F1ECE7800E77829 /* reptile@2x.png */; };
+		324795C81F1ECE7800E77829 /* reptile@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324795B31F1ECE7800E77829 /* reptile@3x.png */; };
+		324795ED1F1ECFA000E77829 /* FieldEventsJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324795E91F1ECFA000E77829 /* FieldEventsJSONParser.swift */; };
+		324795EE1F1ECFA000E77829 /* FieldEventsJSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324795EA1F1ECFA000E77829 /* FieldEventsJSONLoader.swift */; };
+		324795EF1F1ECFA000E77829 /* FieldEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324795EB1F1ECFA000E77829 /* FieldEvent.swift */; };
+		324795F01F1ECFA000E77829 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324795EC1F1ECFA000E77829 /* Field.swift */; };
+		324795F31F1ED3BA00E77829 /* FieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324795F21F1ED3BA00E77829 /* FieldTableViewCell.swift */; };
 		32EC73291F1EC0990036E7B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EC73281F1EC0990036E7B2 /* AppDelegate.swift */; };
-		32EC732B1F1EC0990036E7B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EC732A1F1EC0990036E7B2 /* ViewController.swift */; };
 		32EC732E1F1EC09A0036E7B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EC732C1F1EC09A0036E7B2 /* Main.storyboard */; };
 		32EC73301F1EC09A0036E7B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32EC732F1F1EC09A0036E7B2 /* Assets.xcassets */; };
 		32EC73331F1EC09A0036E7B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EC73311F1EC09A0036E7B2 /* LaunchScreen.storyboard */; };
+		32EC733B1F1ECCF40036E7B2 /* FieldTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EC733A1F1ECCF40036E7B2 /* FieldTableViewController.swift */; };
+		32EC733D1F1ECD190036E7B2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EC733C1F1ECD190036E7B2 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3247959C1F1ECE7000E77829 /* field_observations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = field_observations.json; sourceTree = "<group>"; };
+		3247959F1F1ECE7800E77829 /* amphibian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amphibian.png; sourceTree = "<group>"; };
+		324795A01F1ECE7800E77829 /* amphibian@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "amphibian@2x.png"; sourceTree = "<group>"; };
+		324795A11F1ECE7800E77829 /* amphibian@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "amphibian@3x.png"; sourceTree = "<group>"; };
+		324795A21F1ECE7800E77829 /* bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird.png; sourceTree = "<group>"; };
+		324795A31F1ECE7800E77829 /* bird@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bird@2x.png"; sourceTree = "<group>"; };
+		324795A41F1ECE7800E77829 /* bird@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bird@3x.png"; sourceTree = "<group>"; };
+		324795A51F1ECE7800E77829 /* fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish.png; sourceTree = "<group>"; };
+		324795A61F1ECE7800E77829 /* fish@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fish@2x.png"; sourceTree = "<group>"; };
+		324795A71F1ECE7800E77829 /* fish@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fish@3x.png"; sourceTree = "<group>"; };
+		324795A81F1ECE7800E77829 /* insect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = insect.png; sourceTree = "<group>"; };
+		324795A91F1ECE7800E77829 /* insect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "insect@2x.png"; sourceTree = "<group>"; };
+		324795AA1F1ECE7800E77829 /* insect@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "insect@3x.png"; sourceTree = "<group>"; };
+		324795AB1F1ECE7800E77829 /* mammal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mammal.png; sourceTree = "<group>"; };
+		324795AC1F1ECE7800E77829 /* mammal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mammal@2x.png"; sourceTree = "<group>"; };
+		324795AD1F1ECE7800E77829 /* mammal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mammal@3x.png"; sourceTree = "<group>"; };
+		324795AE1F1ECE7800E77829 /* plant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plant.png; sourceTree = "<group>"; };
+		324795AF1F1ECE7800E77829 /* plant@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plant@2x.png"; sourceTree = "<group>"; };
+		324795B01F1ECE7800E77829 /* plant@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plant@3x.png"; sourceTree = "<group>"; };
+		324795B11F1ECE7800E77829 /* reptile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reptile.png; sourceTree = "<group>"; };
+		324795B21F1ECE7800E77829 /* reptile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reptile@2x.png"; sourceTree = "<group>"; };
+		324795B31F1ECE7800E77829 /* reptile@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reptile@3x.png"; sourceTree = "<group>"; };
+		324795E91F1ECFA000E77829 /* FieldEventsJSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldEventsJSONParser.swift; sourceTree = "<group>"; };
+		324795EA1F1ECFA000E77829 /* FieldEventsJSONLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldEventsJSONLoader.swift; sourceTree = "<group>"; };
+		324795EB1F1ECFA000E77829 /* FieldEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldEvent.swift; sourceTree = "<group>"; };
+		324795EC1F1ECFA000E77829 /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		324795F21F1ED3BA00E77829 /* FieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldTableViewCell.swift; sourceTree = "<group>"; };
 		32EC73251F1EC0990036E7B2 /* Field Survey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Field Survey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32EC73281F1EC0990036E7B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		32EC732A1F1EC0990036E7B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		32EC732D1F1EC09A0036E7B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32EC732F1F1EC09A0036E7B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32EC73321F1EC09A0036E7B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32EC73341F1EC09A0036E7B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32EC733A1F1ECCF40036E7B2 /* FieldTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FieldTableViewController.swift; path = ../FieldTableViewController.swift; sourceTree = "<group>"; };
+		32EC733C1F1ECD190036E7B2 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +91,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3247959E1F1ECE7800E77829 /* classification_icons */ = {
+			isa = PBXGroup;
+			children = (
+				3247959F1F1ECE7800E77829 /* amphibian.png */,
+				324795A01F1ECE7800E77829 /* amphibian@2x.png */,
+				324795A11F1ECE7800E77829 /* amphibian@3x.png */,
+				324795A21F1ECE7800E77829 /* bird.png */,
+				324795A31F1ECE7800E77829 /* bird@2x.png */,
+				324795A41F1ECE7800E77829 /* bird@3x.png */,
+				324795A51F1ECE7800E77829 /* fish.png */,
+				324795A61F1ECE7800E77829 /* fish@2x.png */,
+				324795A71F1ECE7800E77829 /* fish@3x.png */,
+				324795A81F1ECE7800E77829 /* insect.png */,
+				324795A91F1ECE7800E77829 /* insect@2x.png */,
+				324795AA1F1ECE7800E77829 /* insect@3x.png */,
+				324795AB1F1ECE7800E77829 /* mammal.png */,
+				324795AC1F1ECE7800E77829 /* mammal@2x.png */,
+				324795AD1F1ECE7800E77829 /* mammal@3x.png */,
+				324795AE1F1ECE7800E77829 /* plant.png */,
+				324795AF1F1ECE7800E77829 /* plant@2x.png */,
+				324795B01F1ECE7800E77829 /* plant@3x.png */,
+				324795B11F1ECE7800E77829 /* reptile.png */,
+				324795B21F1ECE7800E77829 /* reptile@2x.png */,
+				324795B31F1ECE7800E77829 /* reptile@3x.png */,
+			);
+			path = classification_icons;
+			sourceTree = "<group>";
+		};
+		324795F11F1ECFC500E77829 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3247959C1F1ECE7000E77829 /* field_observations.json */,
+				324795EA1F1ECFA000E77829 /* FieldEventsJSONLoader.swift */,
+				324795EB1F1ECFA000E77829 /* FieldEvent.swift */,
+				324795EC1F1ECFA000E77829 /* Field.swift */,
+				324795E91F1ECFA000E77829 /* FieldEventsJSONParser.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		32EC731C1F1EC0990036E7B2 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +150,16 @@
 		32EC73271F1EC0990036E7B2 /* Field Survey */ = {
 			isa = PBXGroup;
 			children = (
+				324795F11F1ECFC500E77829 /* Model */,
 				32EC73281F1EC0990036E7B2 /* AppDelegate.swift */,
-				32EC732A1F1EC0990036E7B2 /* ViewController.swift */,
 				32EC732C1F1EC09A0036E7B2 /* Main.storyboard */,
 				32EC732F1F1EC09A0036E7B2 /* Assets.xcassets */,
 				32EC73311F1EC09A0036E7B2 /* LaunchScreen.storyboard */,
 				32EC73341F1EC09A0036E7B2 /* Info.plist */,
+				32EC733A1F1ECCF40036E7B2 /* FieldTableViewController.swift */,
+				324795F21F1ED3BA00E77829 /* FieldTableViewCell.swift */,
+				32EC733C1F1ECD190036E7B2 /* DetailViewController.swift */,
+				3247959E1F1ECE7800E77829 /* classification_icons */,
 			);
 			path = "Field Survey";
 			sourceTree = "<group>";
@@ -123,9 +223,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				324795C71F1ECE7800E77829 /* reptile@2x.png in Resources */,
+				324795B61F1ECE7800E77829 /* amphibian@3x.png in Resources */,
+				324795C01F1ECE7800E77829 /* mammal.png in Resources */,
+				324795BF1F1ECE7800E77829 /* insect@3x.png in Resources */,
+				324795B81F1ECE7800E77829 /* bird@2x.png in Resources */,
+				324795C81F1ECE7800E77829 /* reptile@3x.png in Resources */,
+				324795BB1F1ECE7800E77829 /* fish@2x.png in Resources */,
+				324795B51F1ECE7800E77829 /* amphibian@2x.png in Resources */,
+				324795B41F1ECE7800E77829 /* amphibian.png in Resources */,
+				324795C31F1ECE7800E77829 /* plant.png in Resources */,
+				324795C61F1ECE7800E77829 /* reptile.png in Resources */,
+				324795C21F1ECE7800E77829 /* mammal@3x.png in Resources */,
+				324795B91F1ECE7800E77829 /* bird@3x.png in Resources */,
 				32EC73331F1EC09A0036E7B2 /* LaunchScreen.storyboard in Resources */,
+				324795B71F1ECE7800E77829 /* bird.png in Resources */,
+				324795BC1F1ECE7800E77829 /* fish@3x.png in Resources */,
+				324795C11F1ECE7800E77829 /* mammal@2x.png in Resources */,
+				3247959D1F1ECE7000E77829 /* field_observations.json in Resources */,
+				324795BE1F1ECE7800E77829 /* insect@2x.png in Resources */,
+				324795C41F1ECE7800E77829 /* plant@2x.png in Resources */,
 				32EC73301F1EC09A0036E7B2 /* Assets.xcassets in Resources */,
+				324795BD1F1ECE7800E77829 /* insect.png in Resources */,
+				324795BA1F1ECE7800E77829 /* fish.png in Resources */,
 				32EC732E1F1EC09A0036E7B2 /* Main.storyboard in Resources */,
+				324795C51F1ECE7800E77829 /* plant@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +258,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32EC732B1F1EC0990036E7B2 /* ViewController.swift in Sources */,
+				324795F01F1ECFA000E77829 /* Field.swift in Sources */,
+				32EC733D1F1ECD190036E7B2 /* DetailViewController.swift in Sources */,
+				324795F31F1ED3BA00E77829 /* FieldTableViewCell.swift in Sources */,
+				32EC733B1F1ECCF40036E7B2 /* FieldTableViewController.swift in Sources */,
 				32EC73291F1EC0990036E7B2 /* AppDelegate.swift in Sources */,
+				324795ED1F1ECFA000E77829 /* FieldEventsJSONParser.swift in Sources */,
+				324795EF1F1ECFA000E77829 /* FieldEvent.swift in Sources */,
+				324795EE1F1ECFA000E77829 /* FieldEventsJSONLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +429,7 @@
 				32EC73391F1EC09A0036E7B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
