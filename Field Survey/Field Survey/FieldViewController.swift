@@ -26,22 +26,7 @@ class FieldViewController: UIViewController, UITableViewDelegate, UITableViewDat
         fieldEvents = FieldEventsJSONLoader.load(fileName: fieldEventsJSONFile)
         self.title = "Field Events"
         
-    }
-    
-    
-    //    func addSports() -> SportingEvent{
-    //        var index: Int = 0
-    //        //var sportList: SportingEvent
-    //        if let sportingEvents = sportingEvents {
-    //            var index = sportingEvents.count
-    //            while index <= sportingEvents.count {
-    //                let sportList: SportingEvent = SportingEvent.init(sport: sportingEvents[index].sport, matchup: sportingEvents[index].matchup, date: sportingEvents[index].date)
-    //                index += 1
-    //            }
-    //        }
-    //        return sportList
-    //    }
-    
+    }  
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -64,7 +49,7 @@ class FieldViewController: UIViewController, UITableViewDelegate, UITableViewDat
         let cell = tableView.dequeueReusableCell(withIdentifier: "fieldcell", for: indexPath) as! FieldTableViewCell
         
         var index = 0
-        //        while index < (sportingEvents?.count)! {
+ 
         let myField = fieldEvents?[indexPath.row]
         
         cell.topLabel.text = myField?.title
@@ -117,8 +102,7 @@ class FieldViewController: UIViewController, UITableViewDelegate, UITableViewDat
         }
         
     }
-    //  return cell
-    
+ 
     
     
     /*
