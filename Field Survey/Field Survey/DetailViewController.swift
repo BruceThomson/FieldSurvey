@@ -11,8 +11,8 @@ import UIKit
 class DetailViewController: UIViewController {
     @IBOutlet weak var fieldImage: UIImageView!
     @IBOutlet weak var bottomLabel: UILabel!
-    @IBOutlet weak var textLabel: UILabel!
     @IBOutlet weak var topLabel: UILabel!
+    @IBOutlet weak var textBox: UITextView!
     
     var field: FieldEvent?
     
@@ -20,6 +20,7 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         
         topLabel.text = field?.title
+        textBox.text = field?.description
         
         
         switch field!.classification{

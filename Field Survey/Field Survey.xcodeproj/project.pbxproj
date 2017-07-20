@@ -34,11 +34,11 @@
 		324795EF1F1ECFA000E77829 /* FieldEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324795EB1F1ECFA000E77829 /* FieldEvent.swift */; };
 		324795F01F1ECFA000E77829 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324795EC1F1ECFA000E77829 /* Field.swift */; };
 		324795F31F1ED3BA00E77829 /* FieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324795F21F1ED3BA00E77829 /* FieldTableViewCell.swift */; };
+		327A6F1C1F20357200D03DAA /* FieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327A6F1B1F20357200D03DAA /* FieldViewController.swift */; };
 		32EC73291F1EC0990036E7B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EC73281F1EC0990036E7B2 /* AppDelegate.swift */; };
 		32EC732E1F1EC09A0036E7B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EC732C1F1EC09A0036E7B2 /* Main.storyboard */; };
 		32EC73301F1EC09A0036E7B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32EC732F1F1EC09A0036E7B2 /* Assets.xcassets */; };
 		32EC73331F1EC09A0036E7B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EC73311F1EC09A0036E7B2 /* LaunchScreen.storyboard */; };
-		32EC733B1F1ECCF40036E7B2 /* FieldTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EC733A1F1ECCF40036E7B2 /* FieldTableViewController.swift */; };
 		32EC733D1F1ECD190036E7B2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EC733C1F1ECD190036E7B2 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -70,13 +70,13 @@
 		324795EB1F1ECFA000E77829 /* FieldEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldEvent.swift; sourceTree = "<group>"; };
 		324795EC1F1ECFA000E77829 /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
 		324795F21F1ED3BA00E77829 /* FieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldTableViewCell.swift; sourceTree = "<group>"; };
+		327A6F1B1F20357200D03DAA /* FieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldViewController.swift; sourceTree = "<group>"; };
 		32EC73251F1EC0990036E7B2 /* Field Survey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Field Survey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32EC73281F1EC0990036E7B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32EC732D1F1EC09A0036E7B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32EC732F1F1EC09A0036E7B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32EC73321F1EC09A0036E7B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32EC73341F1EC09A0036E7B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32EC733A1F1ECCF40036E7B2 /* FieldTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FieldTableViewController.swift; path = ../FieldTableViewController.swift; sourceTree = "<group>"; };
 		32EC733C1F1ECD190036E7B2 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -153,10 +153,10 @@
 				324795F11F1ECFC500E77829 /* Model */,
 				32EC73281F1EC0990036E7B2 /* AppDelegate.swift */,
 				32EC732C1F1EC09A0036E7B2 /* Main.storyboard */,
+				327A6F1B1F20357200D03DAA /* FieldViewController.swift */,
 				32EC732F1F1EC09A0036E7B2 /* Assets.xcassets */,
 				32EC73311F1EC09A0036E7B2 /* LaunchScreen.storyboard */,
 				32EC73341F1EC09A0036E7B2 /* Info.plist */,
-				32EC733A1F1ECCF40036E7B2 /* FieldTableViewController.swift */,
 				324795F21F1ED3BA00E77829 /* FieldTableViewCell.swift */,
 				32EC733C1F1ECD190036E7B2 /* DetailViewController.swift */,
 				3247959E1F1ECE7800E77829 /* classification_icons */,
@@ -260,8 +260,8 @@
 			files = (
 				324795F01F1ECFA000E77829 /* Field.swift in Sources */,
 				32EC733D1F1ECD190036E7B2 /* DetailViewController.swift in Sources */,
+				327A6F1C1F20357200D03DAA /* FieldViewController.swift in Sources */,
 				324795F31F1ED3BA00E77829 /* FieldTableViewCell.swift in Sources */,
-				32EC733B1F1ECCF40036E7B2 /* FieldTableViewController.swift in Sources */,
 				32EC73291F1EC0990036E7B2 /* AppDelegate.swift in Sources */,
 				324795ED1F1ECFA000E77829 /* FieldEventsJSONParser.swift in Sources */,
 				324795EF1F1ECFA000E77829 /* FieldEvent.swift in Sources */,
